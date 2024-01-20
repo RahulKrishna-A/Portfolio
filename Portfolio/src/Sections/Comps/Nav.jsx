@@ -62,7 +62,7 @@ function Nav(props) {
                 <motion.button variants={child} className={"Resume_button"}>Resume</motion.button>
 
             </motion.ul>}
-            <div id={"nav_right_hamburger"} style={{position: "relative"}}>
+            { !props.hamburgerMenu && <div id={"nav_right_hamburger"} style={{position: "relative"}}>
                 <input onClick={OnclickHamburger} hidden="1" className="check-icon" id="check-icon" name="check-icon"
                        type="checkbox"/>
                 <label className="icon-menu" htmlFor="check-icon">
@@ -71,7 +71,26 @@ function Nav(props) {
                     <div className="bar bar--3"></div>
                 </label>
 
-            </div>
+                { hamburgerOn && <div className="hamburger_input">
+                    <button className="hamburger_value">
+                        <a>Home</a>
+                    </button>
+                    <button className="hamburger_value">
+                        <a>About</a>
+                    </button>
+                    <button className="hamburger_value">
+                        <a>Work</a>
+                    </button>
+                    <button className="hamburger_value">
+                        <a>Contact</a>
+                    </button>
+                    <button className="hamburger_value">
+                        <a>Resume</a>
+                    </button>
+                </div>}
+
+
+            </div>}
 
         </div>
     )
