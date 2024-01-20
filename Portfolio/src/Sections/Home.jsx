@@ -25,7 +25,7 @@ function Home(){
     return(
         <div className={"Section_Container Whole_app"}>
             <Nav hamburgerMenu={windowWidth>=800}/>
-            <Feature_sides_left/>
+            {windowWidth>=800 && <Feature_sides_left appears={windowWidth>=800}/>}
 
         </div>
     )

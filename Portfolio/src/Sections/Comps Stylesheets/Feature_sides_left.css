@@ -4,6 +4,10 @@
     transition: all 0.5s ease-in;
 }
 
+
+li{
+    cursor: pointer;
+}
 .group li:hover{
     width: 22px;
     color: var(--green);
@@ -13,8 +17,24 @@
 
 #feature_left{
     animation: appear 1s ease-in-out ;
+    width: 22px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    position: fixed;
+    bottom: 0;
 
 }
+
+.feature_left__group{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 
 @keyframes appear {
     0%{
@@ -33,4 +53,11 @@
 .feature_left_icons{
     height: 20px;
     width: 20px;
+}
+
+.Line{
+    color: rgba(255, 255, 255, 0.89);
+    height: 15vh;
+    width: 0;
+    border: 1px solid rgba(255, 255, 255, 0.89);
 }

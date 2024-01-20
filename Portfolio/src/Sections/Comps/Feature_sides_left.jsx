@@ -1,9 +1,10 @@
 import "../Comps Stylesheets/Feature_sides_left.css"
 
-function Feature_sides_left() {
+function Feature_sides_left(props) {
+
     return (
-        <div id={"feature_left"}>
-        <ul className="">
+         <div id={"feature_left"}>
+              <ul className="feature_left__group">
             <a className="group cursor-none" title="GitHub" aria-label="GitHub" href="https://github.com/RahulKrishna-A" target={"_blank"}>
                 <li className="">
                     <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round"
@@ -45,6 +46,9 @@ function Feature_sides_left() {
                 </svg>
             </li>
         </a></ul>
+            <div className={"Line"}>
+
+            </div>
         </div>
     )
 }

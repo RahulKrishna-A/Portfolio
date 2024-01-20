@@ -14,8 +14,9 @@
 }
 
 @media (max-width: 1080px) {
-    padding: 0 25px ;
-
+    #nav-bar {
+        padding: 0 25px;
+    }
 }
 
 #nav-bar_left {
