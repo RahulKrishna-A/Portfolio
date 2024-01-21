@@ -51,7 +51,7 @@ function Nav(props) {
                 animate='show'
             >
 
-                <motion.li className={"nav-list_items"} variants={child}><a className={"nav-list_items__p one"}>Home</a>
+                <motion.li className={"nav-list_items"} variants={child}><a href={"#Home_section"} className={"nav-list_items__p one"}>Home</a>
                 </motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
                     className={"nav-list_items__p two"}>About</a></motion.li>
@@ -71,21 +71,21 @@ function Nav(props) {
                     <div className="bar bar--3"></div>
                 </label>
 
-                { hamburgerOn && <div className="hamburger_input">
+                { hamburgerOn && <div  className="hamburger_input">
                     <button className="hamburger_value">
-                        <a>Home</a>
+                        <a style={{color:"white"}} href={"Home_section"} >Home</a>
                     </button>
                     <button className="hamburger_value">
-                        <a>About</a>
+                        <a style={{color:"white"}}>About</a>
                     </button>
                     <button className="hamburger_value">
-                        <a>Work</a>
+                        <a style={{color:"white"}}>Work</a>
                     </button>
                     <button className="hamburger_value">
-                        <a>Contact</a>
+                        <a style={{color:"white"}}>Contact</a>
                     </button>
                     <button className="hamburger_value">
-                        <a>Resume</a>
+                        <a style={{color:"white"}}>Resume</a>
                     </button>
                 </div>}
 

@@ -1,0 +1,116 @@
+#Hero_container{
+
+    padding: 22vh  100px 0 100px;
+
+}
+
+@media (max-width: 768px) {
+    #Hero_container{
+        padding: 20vh  50px 0 50px;
+    }
+}
+@media (max-width: 480px) {
+    #Hero_container{
+        padding: 20vh  25px 0 25px;
+    }
+}
+.Hero_intro{
+    font-size: clamp(14px,5vw,16px);
+    font-family: var(--font-mono);
+    color: var(--green);
+    margin: 0px 0px 1rem;
+}
+
+.Hero_Name{
+    font-size: clamp(40px,6vw,70px);
+    font-family: var(--font-sans);
+    color:rgb(229 231 235);
+    font-weight: 600;
+    margin: 0px 0px ;
+
+}
+.Hero_slogan{
+    font-size: clamp(40px,6vw,70px);
+    font-family: var(--font-sans);
+    color: rgba(156, 163, 175, 0.87);
+    margin: 0px 0px 1rem;
+}
+
+.Hero_description{
+    font-size:clamp(14px,5.5vw,16px);
+    font-family: var(--font-sans);
+    color: rgba(156, 163, 175, 0.82);
+    width: 30vw;
+    margin: 0px 0px 1rem;
+}
+@media (max-width: 768px) {
+    .Hero_description{
+        width: 70vw;
+    }
+}
+@media (max-width: 480px) {
+    .Hero_description{
+        width:70vw
+    }
+}
+
+
+
+/*-----Button*/
+.mail_button {
+    font-family: var(--font-mono);
+    --color: var(--green);
+    /*font-family: inherit;*/
+    /*display: inline-block;*/
+    width: 8rem;
+    height: 2.2rem;
+    /*line-height: 2.5em;*/
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    background-color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mail_button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.mail_button a{
+    color:var(--green);
+}
+.mail_button:hover a{
+    color: var(--navy);
+}
+
+.mail_button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.mail_button:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.mail_button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+}

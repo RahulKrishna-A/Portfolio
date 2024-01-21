@@ -41,12 +41,14 @@
     margin-right: 2rem;
 
 }
-.nav-list_items:hover{
+.nav-list_items__p:hover{
     color:white;
 }
 
 /*=========================*/
-
+.nav-list_items__p {
+    color:rgba(204, 214, 246, 0.68)
+}
 .nav-list_items__p::before {
     color: var(--green);
     position: relative;

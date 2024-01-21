@@ -88,6 +88,8 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 0px 25px;
   }}
 
-
+a{
+  text-decoration: None;
+}
 
 
