@@ -54,7 +54,7 @@ function Nav(props) {
                 <motion.li className={"nav-list_items"} variants={child}><a href={"#Home_section"} className={"nav-list_items__p one"}>Home</a>
                 </motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
-                    className={"nav-list_items__p two"}>About</a></motion.li>
+                    className={"nav-list_items__p two"} href={"#About_container"}>About</a></motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
                     className={"nav-list_items__p three"}>Work</a></motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
@@ -76,7 +76,7 @@ function Nav(props) {
                         <a style={{color:"white"}} href={"Home_section"} >Home</a>
                     </button>
                     <button className="hamburger_value">
-                        <a style={{color:"white"}}>About</a>
+                        <a style={{color:"white"}} href={"#About_container"}>About</a>
                     </button>
                     <button className="hamburger_value">
                         <a style={{color:"white"}}>Work</a>

@@ -1,5 +1,5 @@
 #About_left_container{
-    width: 50%;
+    width: 65%;
     /*background-color: #ccd6f6;*/
 }
 @media (max-width: 950px) {
@@ -40,7 +40,7 @@
 .line_horizontal{
     height: 0;
     width: 300px;
-    border:1px solid rgb(136, 146, 176);
+    border:1px solid rgba(136, 146, 176, 0.68);
     margin-left: 10px;
     display: inline-block;
 }
@@ -61,7 +61,7 @@
     color:rgb(156 163 175);
     font-family: var(--font-sans);
     line-height: 1.3;
-    font-size: 20px;
+    font-size: 19px;
     margin-top: 15px ;
 }
 .About_description p{
@@ -71,7 +71,7 @@
 @media (max-width: 480px){
 
  .About_description {
-     font-size: 18px;
+     font-size: 17px;
  }}
 
 .About_skills{
@@ -93,7 +93,7 @@
     /*justify-content: center;*/
     align-items: center;
     /*text-align: -webkit-match-parent;*/
-    font-size: 18px;
+    font-size: 16px;
     color: var(--green);
     font-family: var(--font-mono);
 }

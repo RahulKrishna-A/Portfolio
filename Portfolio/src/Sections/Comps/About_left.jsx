@@ -14,7 +14,7 @@ const motionContainer = {
             ease: 'easeOut',
             staggerChildren: 0.15,
             duration: 0.3,
-            delayChildren:1
+
 
         },
     },
@@ -30,29 +30,39 @@ const child = {
 }
 function About_left(){
     return(
-        <motion.div id={"About_left_container"}>
-            <motion.div className={"About_header"}>
-                <p>01.
+        <motion.div variants={motionContainer} initial={"hidden"} whileInView={"show"}  viewport={{ once: true, amount: 0.8 }} id={"About_left_container"}>
+            <motion.div variants={child} className={"About_header"}>
+                <p>02.
                 </p>
                 <p>About Me</p>
                 <div className={"line_horizontal"}></div>
             </motion.div>
-            <motion.div className={"About_description"}>
-                <p>Hello! My name is Rahul and I enjoy creating things for the web.My interest in coding started back in 2020 during first year of B.tech . Since then, I started learning programming languages & solving problems.</p>
-                <p>Today, I'm currently pursuing my Bachelors in Computer Science and Engineering (2020-2024) with <a className={"green-color"}>8.05 GPA</a> aggregate at <a  href ="https://www.amrita.edu/ " target={"_blank"} className={"green-color"}>Amrita
+            <motion.div variants={child} className={"About_description"}>
+                <p>Hello! My name is Rahul and I enjoy creating things for the web.My interest in coding started back in
+                    2020 during first year of B.tech . Since then, I started learning programming languages & solving
+                    problems.</p>
+                <p>During my tenure as a<a className={"green-color"}> Frontend Developer Intern</a> at <a
+                    target={"_blank"} href={'https://www.ebonow.com/'} className={"green-color"}
+                    style={{textDecoration: "underline"}}> EBO </a>, I led the development of responsive webpages,
+                    showcasing a strong command of front-end technologies. </p>
+                <p>Today, I'm currently pursuing my Bachelors in Computer Science and Engineering (2020-2024) with <a
+                    className={"green-color"}>8.05 GPA</a> aggregate at <a href="https://www.amrita.edu/ "
+                                                                           target={"_blank"} className={"green-color"}>Amrita
                     university.</a></p>
-                <p>I have an endless curiosity every day to build and design pixel-perfect websites. Here is a list of the technologies that I'm familiar with!</p>
+
+                <p>Here is a list of the
+                    technologies that I'm familiar with!</p>
             </motion.div>
-            <motion.ul className={"About_skills"}>
+            <motion.ul variants={child} className={"About_skills"}>
                 <li className={"About_skills_li"}>JavaScript</li>
                 <li className={"About_skills_li"}>Python</li>
-                <li className={"About_skills_li"}>HTML || CSS</li>
                 <li className={"About_skills_li"}>ReactJS</li>
-                <li className={"About_skills_li"}>NodeJS</li>
+                <li className={"About_skills_li"}>HTML || CSS</li>
+                <li className={"About_skills_li"}>NodeJS </li>
                 <li className={"About_skills_li"}>ExpressJS</li>
                 <li className={"About_skills_li"}>SQL</li>
                 <li className={"About_skills_li"}>MongoDB</li>
-                <li className={"About_skills_li"}>Tools(Zod,JWTs,Git)</li>
+                <li className={"About_skills_li"}>Tools(JWTs, Git, Framer Motion)</li>
 
             </motion.ul>
         </motion.div>

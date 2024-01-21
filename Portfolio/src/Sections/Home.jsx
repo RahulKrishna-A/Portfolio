@@ -5,6 +5,7 @@ import {color} from "framer-motion";
 import Feature_sides_left from "./Comps/Feature_sides_left.jsx";
 import Feature_sides_Right from "./Comps/Feature_sides_Right.jsx";
 import Hero from "./Comps/Hero.jsx";
+import Work from "./Work.jsx";
 
 
 function Home(){
@@ -30,6 +31,7 @@ function Home(){
             {windowWidth>=800 && <Feature_sides_left appears={windowWidth>=800}/>}
             {windowWidth>=800 && <Feature_sides_Right />}
             <Hero/>
+
 
         </div>
     )

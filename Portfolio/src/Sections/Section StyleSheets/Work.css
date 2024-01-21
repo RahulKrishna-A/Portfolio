@@ -1,0 +1,22 @@
+#Work_wrapper{
+    padding: 20vh  100px 0 100px;
+
+}
+#Work_container{
+    height: auto;
+    width: 100vw;
+    width: 100dvw;
+    background-color:var(--navy) ;
+}
+
+@media (max-width: 1300px) {
+    #Work_wrapper{
+        padding: 16vh  50px 0 50px;
+    }
+}
+@media (max-width: 480px) {
+
+    #Work_wrapper{
+        padding: 18vh  25px 0 25px;
+    }
+}
