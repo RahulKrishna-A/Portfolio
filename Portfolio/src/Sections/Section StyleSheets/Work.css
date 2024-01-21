@@ -20,3 +20,24 @@
         padding: 18vh  25px 0 25px;
     }
 }
+
+.Work_header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.Work_header p:nth-child(1){
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: clamp(16px,3vw,20px);
+
+
+}
+.Work_header p:nth-child(2){
+    color: rgba(255, 255, 255, 0.82);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: clamp(26px,4vw,30px);
+
+}
