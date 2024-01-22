@@ -17,7 +17,7 @@ My Portfolio is a web application built from scratch  using HTML,CSS,Animations,
 [https://rahul-krishna.vercel.app/](https://rahul-krishna.vercel.app/)
 
 ## credits
-# Inspirations
+### Inspirations
 - Brittany Chiang          : https://github.com/bchiang7
 - Brad Tramel            : https://github.com/btramel
 
