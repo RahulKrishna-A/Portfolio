@@ -76,7 +76,7 @@ function Nav(props) {
 
                 {hamburgerOn && <div className="hamburger_input">
                     <button className="hamburger_value">
-                        <a style={{color: "white"}} href={"Home_section"}>Home</a>
+                        <a style={{color: "white"}} href={"#Home_section"}>Home</a>
                     </button>
                     <button className="hamburger_value">
                         <a style={{color: "white"}} href={"#About_container"}>About</a>
