@@ -1,0 +1,12 @@
+#Credits_container{
+    height:5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+
+}
+#Credits_container a{
+ color: var(--green);
+}

@@ -37,7 +37,7 @@ function Projects(props) {
         {Project_list.map((items)=>{
             return (<div key={items.Project_name} className={"project_container"}>
                 <div className={"project_left"}>
-                    <p className={"Featured_Project"}>Item</p>
+                    <p className={"Featured_Project"}>Featured Project</p>
                     <p className={"Project_Name"}>{items.Project_name}</p>
                     <div className={"Project_Description"}>{items.Project_Description}
                     </div>

@@ -51,18 +51,19 @@ function Nav(props) {
                 animate='show'
             >
 
-                <motion.li className={"nav-list_items"} variants={child}><a href={"#Home_section"} className={"nav-list_items__p one"}>Home</a>
+                <motion.li className={"nav-list_items"} variants={child}><a href={"#Home_section"}
+                                                                            className={"nav-list_items__p one"}>Home</a>
                 </motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
                     className={"nav-list_items__p two"} href={"#About_container"}>About</a></motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
-                    className={"nav-list_items__p three"}>Work</a></motion.li>
+                    className={"nav-list_items__p three"} href={"#Work_container"}>Work</a></motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
                     className={"nav-list_items__p four"}>Contact</a></motion.li>
                 <motion.button variants={child} className={"Resume_button"}>Resume</motion.button>
 
             </motion.ul>}
-            { !props.hamburgerMenu && <div id={"nav_right_hamburger"} style={{position: "relative"}}>
+            {!props.hamburgerMenu && <div id={"nav_right_hamburger"} style={{position: "relative"}}>
                 <input onClick={OnclickHamburger} hidden="1" className="check-icon" id="check-icon" name="check-icon"
                        type="checkbox"/>
                 <label className="icon-menu" htmlFor="check-icon">
@@ -71,21 +72,21 @@ function Nav(props) {
                     <div className="bar bar--3"></div>
                 </label>
 
-                { hamburgerOn && <div  className="hamburger_input">
+                {hamburgerOn && <div className="hamburger_input">
                     <button className="hamburger_value">
-                        <a style={{color:"white"}} href={"Home_section"} >Home</a>
+                        <a style={{color: "white"}} href={"Home_section"}>Home</a>
                     </button>
                     <button className="hamburger_value">
-                        <a style={{color:"white"}} href={"#About_container"}>About</a>
+                        <a style={{color: "white"}} href={"#About_container"}>About</a>
                     </button>
                     <button className="hamburger_value">
-                        <a style={{color:"white"}}>Work</a>
+                        <a style={{color: "white"}} href={"#Work_container"}>Work</a>
                     </button>
                     <button className="hamburger_value">
-                        <a style={{color:"white"}}>Contact</a>
+                        <a style={{color: "white"}}>Contact</a>
                     </button>
                     <button className="hamburger_value">
-                        <a style={{color:"white"}}>Resume</a>
+                        <a style={{color: "white"}}>Resume</a>
                     </button>
                 </div>}
 
