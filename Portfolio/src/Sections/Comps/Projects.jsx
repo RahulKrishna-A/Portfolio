@@ -6,9 +6,7 @@ function Projects(props) {
         <div className={"project_left"}>x
             <p className={"Featured_Project"}>Featured Project</p>
             <p className={"Project_Name"}>Book Desk</p>
-            <div className={"Project_Description"}>Featuring a trailing mouse cursor and clever pop-ups, this landing
-                page puts a modern twist on 90's web design to unveil the Timberwolves' 35th Anniversary Classic Edition
-                Uniforms.
+            <div className={"Project_Description"} >Developed GestureLock web application, employing Google's MediaPipe library for precise hand gesture recognition, with a specific emphasis on recognizing digits 1 to 5. The application introduces gesture-based authentication and CAPTCHA using hand landmarks,
             </div>
             <div className={"Project_tech"}>
                 <a>Nextjs</a>

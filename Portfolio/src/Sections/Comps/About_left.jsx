@@ -45,7 +45,7 @@ function About_left(){
                     target={"_blank"} href={'https://www.ebonow.com/'} className={"green-color"}
                     style={{textDecoration: "underline"}}> EBO </a>, I led the development of responsive webpages,
                     showcasing a strong command of front-end technologies. </p>
-                <p>Today, I'm currently pursuing my Bachelors in Computer Science and Engineering (2020-2024) with <a
+                <p>Today, I'm currently pursuing my Bachelors in Electronics and Communication Engineering (2020-2024) with <a
                     className={"green-color"}>8.05 GPA</a> aggregate at <a href="https://www.amrita.edu/ "
                                                                            target={"_blank"} className={"green-color"}>Amrita
                     university.</a></p>
