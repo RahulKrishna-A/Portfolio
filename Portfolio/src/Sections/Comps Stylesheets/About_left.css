@@ -1,80 +1,95 @@
-#About_left_container{
+#About_left_container {
     width: 65%;
     /*background-color: #ccd6f6;*/
 }
+
 @media (max-width: 950px) {
-    #About_left_container{
+    #About_left_container {
         width: 70%;
 
     }
 }
 
 @media (max-width: 500px) {
-    #About_left_container{
+    #About_left_container {
         width: 100%;
 
     }
 }
 
-.About_header{
+.About_header {
     display: flex;
     align-items: center;
     gap: 5px;
 
 }
-.About_header p:nth-child(1){
+
+.About_header p:nth-child(1) {
     color: var(--green);
     font-family: var(--font-mono);
-    font-size: clamp(16px,3vw,20px);
+    font-size: clamp(16px, 3vw, 20px);
 
 
 }
-.About_header p:nth-child(2){
+
+.About_header p:nth-child(2) {
     color: rgba(255, 255, 255, 0.82);
     font-family: var(--font-sans);
     font-weight: 600;
-    font-size: clamp(26px,4vw,30px);
+    font-size: clamp(26px, 4vw, 30px);
 
 }
 
-.line_horizontal{
+.line_horizontal {
     height: 0;
     width: 300px;
-    border:0.5px solid rgba(100, 255, 218, 0.28);
+    border: 0.5px solid rgba(100, 255, 218, 0.28);
     margin-left: 10px;
     display: inline-block;
 }
 
 @media (max-width: 750px) {
-    .line_horizontal{width:200px};
+    .line_horizontal {
+        width: 200px
+    }
+
+;
 
 }
+
 @media (max-width: 400px) {
-    .line_horizontal{display: none};
+    .line_horizontal {
+        display: none
+    }
+
+;
 
 }
-.green-color{
-    color:var(--green)
+
+.green-color {
+    color: var(--green)
 }
 
-.About_description{
-    color:rgb(156 163 175);
+.About_description {
+    color: rgb(156 163 175);
     font-family: var(--font-sans);
     line-height: 1.3;
     font-size: 19px;
-    margin-top: 15px ;
+    margin-top: 15px;
 }
-.About_description p{
+
+.About_description p {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
 
- .About_description {
-     font-size: 17px;
- }}
+    .About_description {
+        font-size: 17px;
+    }
+}
 
-.About_skills{
+.About_skills {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     overflow: hidden;
@@ -84,7 +99,8 @@
     list-style: none;
     /*background-color: #ccd6f6;*/
 }
-.About_skills_li{
+
+.About_skills_li {
     position: relative;
     margin-top: 0.4rem;
     margin-bottom: 10px;
@@ -108,14 +124,14 @@
 }
 
 @media (max-width: 895px) {
-    .About_skills_li{
+    .About_skills_li {
         margin-top: 0.2rem;
 
     }
 }
 
 @media (max-width: 500px) {
-    #About_left_container{
+    #About_left_container {
         margin-top: 0;
 
     }

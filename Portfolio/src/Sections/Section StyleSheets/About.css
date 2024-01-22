@@ -1,28 +1,32 @@
-#About_wrapper{
-    padding: 20vh  100px 0 100px;
+#About_wrapper {
+    padding: 20vh 100px 0 100px;
 
 }
-#About_container{
+
+#About_container {
     height: 1050vh;
-    height:105dvh;
+    height: 105dvh;
 }
 
 @media (max-width: 1300px) {
-    #About_container{
+    #About_container {
         height: 110vh;
-        height:110dvh;
+        height: 110dvh;
     }
-    #About_wrapper{
-        padding: 16vh  50px 0 50px;
+
+    #About_wrapper {
+        padding: 16vh 50px 0 50px;
     }
 }
+
 @media (max-width: 480px) {
-    #About_container{
+    #About_container {
         height: 125vh;
-        height:125dvh;
+        height: 125dvh;
     }
-    #About_wrapper{
-        padding: 18vh  25px 0 25px;
+
+    #About_wrapper {
+        padding: 18vh 25px 0 25px;
     }
 }
 

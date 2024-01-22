@@ -7,34 +7,34 @@ import WeatherCastImage from "../../assets/Public/Images/WeatherCast.png"
 
 function Projects(props) {
 
-    const Project_list=[{
-        Project_name:"Web Application for Gesture Based Digit Detection",
-        Project_Description:"Developed GestureLock , employing Google's MediaPipe library for precise hand gesture recognition, with a specific emphasis on recognizing digits 1 to 5. The application introduces gesture-based authentication and CAPTCHA using hand landmarks. ",
-        Project_TechList:["Javascript","MediaPipe","HTML","CSS"],
-        Project_image:GestureLockImage,
-        Project_link_Github:"https://github.com/RahulKrishna-A/GestureAIlock-MachineLearning_Powered_Hand_Gesture_Password_Detection",
-        Project_link_live:"https://rahulkrishna-a.github.io/GestureAIlock-MachineLearning_Powered_Hand_Gesture_Password_Detection/"
-    },{
-        Project_name:"Resume Builder",
-        Project_Description:"Constructed a Resume Generator application using ReactJS and CSS to facilitate the seamless creation of professional resume. Implemented a user-friendly interface that empowers users to effortlessly generate and download resumes in PDF format. ",
-        Project_TechList:["ReactJs","CSS"],
-        Project_image:ResumeBuilderImage,
-        Project_link_Github:"https://github.com/RahulKrishna-A/ResumeBuilder",
-        Project_link_live:"https://resume-builder-rahul.netlify.app/"
+    const Project_list = [{
+        Project_name: "Web Application for Gesture Based Digit Detection",
+        Project_Description: "Developed GestureLock , employing Google's MediaPipe library for precise hand gesture recognition, with a specific emphasis on recognizing digits 1 to 5. The application introduces gesture-based authentication and CAPTCHA using hand landmarks. ",
+        Project_TechList: ["Javascript", "MediaPipe", "HTML", "CSS"],
+        Project_image: GestureLockImage,
+        Project_link_Github: "https://github.com/RahulKrishna-A/GestureAIlock-MachineLearning_Powered_Hand_Gesture_Password_Detection",
+        Project_link_live: "https://rahulkrishna-a.github.io/GestureAIlock-MachineLearning_Powered_Hand_Gesture_Password_Detection/"
+    }, {
+        Project_name: "Resume Builder",
+        Project_Description: "Constructed a Resume Generator application using ReactJS and CSS to facilitate the seamless creation of professional resume. Implemented a user-friendly interface that empowers users to effortlessly generate and download resumes in PDF format. ",
+        Project_TechList: ["ReactJs", "CSS"],
+        Project_image: ResumeBuilderImage,
+        Project_link_Github: "https://github.com/RahulKrishna-A/ResumeBuilder",
+        Project_link_live: "https://resume-builder-rahul.netlify.app/"
     },
         {
-            Project_name:"Real-time Weather Application",
-            Project_Description:"\n" +
+            Project_name: "Real-time Weather Application",
+            Project_Description: "\n" +
                 "Developed weatherCast, a web application which fetches real-time weather data from WeatherAPI, a robust weather data API. Designed a responsive user interface for WeatherCast and incorporated a feature that presents detailed historical weather information for the past five days in the user's selected location. ",
-            Project_TechList:["JavaScript","API","HTML","CSS"],
-            Project_image:WeatherCastImage,
-            Project_link_Github:"https://github.com/RahulKrishna-A/WeatherCast",
-            Project_link_live:"https://rahulkrishna-a.github.io/WeatherCast/"
+            Project_TechList: ["JavaScript", "API", "HTML", "CSS"],
+            Project_image: WeatherCastImage,
+            Project_link_Github: "https://github.com/RahulKrishna-A/WeatherCast",
+            Project_link_live: "https://rahulkrishna-a.github.io/WeatherCast/"
         },
     ]
 
     return (<>
-        {Project_list.map((items)=>{
+        {Project_list.map((items) => {
             return (<div key={items.Project_name} className={"project_container"}>
                 <div className={"project_left"}>
                     <p className={"Featured_Project"}>Featured Project</p>
@@ -42,11 +42,12 @@ function Projects(props) {
                     <div className={"Project_Description"}>{items.Project_Description}
                     </div>
                     <div className={"Project_tech"}>
-                        {items.Project_TechList.map((ele)=> {
+                        {items.Project_TechList.map((ele) => {
                             return (<a key={2}>{ele}</a>)
                         })}
                     </div>
-                    <div className="project-links"><a className={"Project_svgs"} href={items.Project_link_Github} aria-label="GitHub Link"
+                    <div className="project-links"><a className={"Project_svgs"} href={items.Project_link_Github}
+                                                      aria-label="GitHub Link"
                                                       rel="noopener noreferrer" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor"
