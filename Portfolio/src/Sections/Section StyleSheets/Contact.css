@@ -41,6 +41,14 @@
     margin-bottom: 1rem;
 }
 
+#contact_button{
+    color: var(--green);
+}
+
+._button:hover #contact_button{
+    color: var(--navy);
+}
+
 @media (max-width: 600px ) {
     .Contact_content {
         width: 70%;
