@@ -8,7 +8,7 @@ import WeatherCastImage from "../../assets/Public/Images/WeatherCast.png"
 function Projects(props) {
 
     const Project_list = [{
-        Project_name: "Web Application for Gesture Based Digit Detection",
+        Project_name: "Gesture Based Digit Detection",
         Project_Description: "Developed GestureLock , employing Google's MediaPipe library for precise hand gesture recognition, with a specific emphasis on recognizing digits 1 to 5. The application introduces gesture-based authentication and CAPTCHA using hand landmarks. ",
         Project_TechList: ["Javascript", "MediaPipe", "HTML", "CSS"],
         Project_image: GestureLockImage,

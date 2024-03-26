@@ -40,7 +40,7 @@ function Hero() {
                 <motion.div className={"Hero_slogan"} variants={child}> I Explore, Code & Create.</motion.div>
                 <motion.div className={"Hero_description"} variants={child}><p style={{marginBottom: "1rem"}}>An
                     aspiring software
-                    developer with a goal-driven mindset and passion for learning and innovating.</p>
+                    developer with a Problem solving mindset and passion for learning and innovating.</p>
                     <p> I am always open to discussions on <a href={"https://www.linkedin.com/in/rahul-krishnaa28/"}
                                                               target={"_blank"} style={{
                         color: "var(--green)",

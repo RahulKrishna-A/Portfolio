@@ -46,30 +46,31 @@ function About_left() {
                     in
                     2020 during first year of B.tech . Since then, I started learning programming languages & solving
                     problems.</p>
-                <p>During my tenure as a<a className={"green-color"}> Frontend Developer Intern</a> at <a
-                    target={"_blank"} href={'https://www.ebonow.com/'} className={"green-color"}
-                    style={{textDecoration: "underline"}}> EBO </a>, I led the development of responsive webpages,
-                    showcasing a strong command of front-end technologies. </p>
-                <p>Today, I'm currently pursuing my Bachelors in Electronics and Communication Engineering (2020-2024)
-                    with <a
-                        className={"green-color"}>8.05 GPA</a> aggregate at <a href="https://www.amrita.edu/ "
-                                                                               target={"_blank"}
-                                                                               className={"green-color"}>Amrita
-                        university.</a></p>
+                <p>Although I have experience as Full-stack developer, I would love to coin myself as a <a
+                    className={"green-color"}> Problem Solver.</a></p>
+                <p>Over the past years, I've gained experience in <a
+                    className={"green-color"}> SDE Internship</a>,<a
+                    className={"green-color"}> Frontend Development</a> and <a
+                    className={"green-color"}> Freelancing </a>
+                     at startups, where I've learned teamwork, developing MVPs, and  project management skills. </p>
+
 
                 <p>Here is a list of the
                     technologies that I'm familiar with!</p>
             </motion.div>
             <motion.ul variants={child} className={"About_skills"}>
-                <li className={"About_skills_li"}>JavaScript</li>
-                <li className={"About_skills_li"}>Python</li>
+                <li className={"About_skills_li"}>NextJS</li>
                 <li className={"About_skills_li"}>ReactJS</li>
-                <li className={"About_skills_li"}>HTML || CSS</li>
-                <li className={"About_skills_li"}>NodeJS</li>
+                <li className={"About_skills_li"}>Python</li>
                 <li className={"About_skills_li"}>ExpressJS</li>
-                <li className={"About_skills_li"}>SQL</li>
+                <li className={"About_skills_li"}>Javascript</li>
+                <li className={"About_skills_li"}>TailwindCSS</li>
+                <li className={"About_skills_li"}>HTML || CSS</li>
                 <li className={"About_skills_li"}>MongoDB</li>
-                <li className={"About_skills_li"}>Tools(JWTs, Git, Framer Motion)</li>
+                <li className={"About_skills_li"}>SQL</li>
+                <li className={"About_skills_li"}>Recoil</li>
+                <li className={"About_skills_li"}>Jest</li>
+                <li className={"About_skills_li"}>Tools(JWTs, Git, Framer Motion, MUI,ZOD)</li>
 
             </motion.ul>
         </motion.div>
