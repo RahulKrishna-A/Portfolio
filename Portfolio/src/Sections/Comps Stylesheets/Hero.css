@@ -17,14 +17,14 @@
 }
 
 .Hero_intro {
-    font-size: clamp(14px, 5vw, 16px);
+    font-size: clamp(12px, 5vw, 16px);
     font-family: var(--font-mono);
     color: var(--green);
     margin: 0px 0px 1rem;
 }
 
 .Hero_Name {
-    font-size: clamp(40px, 6vw, 70px);
+    font-size: clamp(32px, 6vw, 70px);
     font-family: var(--font-sans);
     color: rgb(229 231 235);
     font-weight: 600;
@@ -33,14 +33,14 @@
 }
 
 .Hero_slogan {
-    font-size: clamp(40px, 6vw, 70px);
+    font-size: clamp(32px, 6vw, 70px);
     font-family: var(--font-sans);
     color: rgba(156, 163, 175, 0.87);
     margin: 0px 0px 1rem;
 }
 
 .Hero_description {
-    font-size: clamp(14px, 5.5vw, 16px);
+    font-size: clamp(12px, 5.5vw, 16px);
     font-family: var(--font-sans);
     color: rgba(156, 163, 175, 0.82);
     width: 30vw;
