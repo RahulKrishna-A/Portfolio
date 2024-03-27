@@ -42,11 +42,8 @@ function About_left() {
                 <div className={"line_horizontal"}></div>
             </motion.div>
             <motion.div variants={child} className={"About_description"}>
-                <p>Hello! My name is Rahul and I enjoy creating things for the web. My interest in coding started back
-                    in
-                    2020 during first year of B.tech . Since then, I started learning programming languages & solving
-                    problems.</p>
-                <p>Although I have experience as Full-stack developer, I would love to coin myself as a <a
+                <p>Hello! My name is Rahul and I enjoy creating things for the web..
+                Although I have experience as Full-stack developer, I would love to coin myself as a <a
                     className={"green-color"}> Problem Solver.</a></p>
                 <p>Over the past years, I've gained experience in <a
                     className={"green-color"}> SDE Internship</a>,<a

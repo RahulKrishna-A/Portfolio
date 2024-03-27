@@ -4,8 +4,8 @@
 }
 
 #About_container {
-    height: 1050vh;
-    height: 105dvh;
+    /*height: 105vh;*/
+    /*height: 105dvh;*/
 }
 
 @media (max-width: 1300px) {
@@ -28,5 +28,36 @@
     #About_wrapper {
         padding: 18vh 25px 0 25px;
     }
+}
+
+
+#about_infinite-scroll{
+    /*background-color: #2f81f7;*/
+    width: 100%;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    /*overflow: scroll;*/
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    height: fit-content;
+    gap: 15px;
+    animation: slide 55s infinite linear;
+    margin-right: 15px;
+}
+
+@keyframes slide {
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+
 }
 
