@@ -10,13 +10,13 @@ function Projects(props) {
     const Project_list = [{
         Project_name: "Gesture Based Digit Detection",
         Project_Description: "Developed GestureLock , employing Google's MediaPipe library for precise hand gesture recognition, with a specific emphasis on recognizing digits 1 to 5. The application introduces gesture-based authentication and CAPTCHA using hand landmarks. ",
-        Project_TechList: ["Javascript", "MediaPipe", "HTML", "CSS"],
+        Project_TechList: ["Javascript", "MediaPipe", "HTML", "CSS","OpenAPI"],
         Project_image: GestureLockImage,
         Project_link_Github: "https://github.com/RahulKrishna-A/GestureAIlock-MachineLearning_Powered_Hand_Gesture_Password_Detection",
         Project_link_live: "https://rahulkrishna-a.github.io/GestureAIlock-MachineLearning_Powered_Hand_Gesture_Password_Detection/"
     }, {
         Project_name: "Resume Builder",
-        Project_Description: "Constructed a Resume Generator application using ReactJS and CSS to facilitate the seamless creation of professional resume. Implemented a user-friendly interface that empowers users to effortlessly generate and download resumes in PDF format. ",
+        Project_Description: "A web App for Resume Generation using ReactJS and CSS to facilitate the seamless creation of professional resume. Implemented a user-friendly interface that allows users to effortlessly  download resumes in PDF format. ",
         Project_TechList: ["ReactJs", "CSS"],
         Project_image: ResumeBuilderImage,
         Project_link_Github: "https://github.com/RahulKrishna-A/ResumeBuilder",
@@ -25,7 +25,7 @@ function Projects(props) {
         {
             Project_name: "Real-time Weather Application",
             Project_Description: "\n" +
-                "Developed weatherCast, a web application which fetches real-time weather data from WeatherAPI, a robust weather data API. Designed a responsive user interface for WeatherCast and incorporated a feature that presents detailed historical weather information for the past five days in the user's selected location. ",
+                "WeatherCast, a web application which fetches real-time weather data from WeatherAPI. Designed a responsive user interface for WeatherCast and incorporated a feature that presents detailed historical weather  for the past 5 days in the  selected location. ",
             Project_TechList: ["JavaScript", "API", "HTML", "CSS"],
             Project_image: WeatherCastImage,
             Project_link_Github: "https://github.com/RahulKrishna-A/WeatherCast",
