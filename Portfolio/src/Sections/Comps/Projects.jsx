@@ -2,12 +2,20 @@ import "../Comps Stylesheets/Projects.css"
 
 
 import GestureLockImage from "../../assets/Public/Images/GestureLock.png"
+import CashFlowImg from "../../assets/Public/Images/Cashflow.png"
 import ResumeBuilderImage from "../../assets/Public/Images/ResumeBuilder.png"
 import WeatherCastImage from "../../assets/Public/Images/WeatherCast.png"
 
 function Projects(props) {
 
     const Project_list = [{
+        Project_name: "CashFlow",
+        Project_Description: "CashFlow. A webapp simulating virtual money transfers online, along with User authentication, utilises sessions to ensure Atomicity and Isolation in Transactions. Follows 'Fixed-point' representation to eliminate decimal errors in DBs.",
+        Project_TechList: ["ReactJS", "NodeJS", "Express", "MongoDB","tailwindcss","JWT"],
+        Project_image: CashFlowImg,
+        Project_link_Github: "https://github.com/RahulKrishna-A/CashFlow",
+        Project_link_live: "https://cash-flow-rahul.vercel.app/"
+    },{
         Project_name: "Gesture Based Digit Detection",
         Project_Description: "Developed GestureLock , employing Google's MediaPipe library for precise hand gesture recognition, with a specific emphasis on recognizing digits 1 to 5. The application introduces gesture-based authentication and CAPTCHA using hand landmarks. ",
         Project_TechList: ["Javascript", "MediaPipe", "HTML", "CSS","OpenAPI"],
