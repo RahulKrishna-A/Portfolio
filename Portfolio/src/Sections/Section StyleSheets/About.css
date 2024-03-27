@@ -4,14 +4,24 @@
 }
 
 #About_container {
-    /*height: 105vh;*/
-    /*height: 105dvh;*/
+    height: auto;
+}
+
+#about_infinite-scroll{
+    /*background-color: #2f81f7;*/
+    width: 100%;
+    height: 10rem;
+    margin-top: 2rem;
+    /*margin-top: 2rem;*/
+    display: flex;
+    align-items: center;
+    /*overflow: scroll;*/
+    overflow: hidden;
 }
 
 @media (max-width: 1300px) {
     #About_container {
-        height: 110vh;
-        height: 110dvh;
+        height: auto;
     }
 
     #About_wrapper {
@@ -21,27 +31,19 @@
 
 @media (max-width: 480px) {
     #About_container {
-        height: 125vh;
-        height: 125dvh;
+        height: auto;
     }
 
     #About_wrapper {
         padding: 18vh 25px 0 25px;
     }
+    #about_infinite-scroll{
+        display: none;
+    }
 }
 
 
-#about_infinite-scroll{
-    /*background-color: #2f81f7;*/
-    width: 100%;
-    height: 10rem;
-    margin-top: 2rem;
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    /*overflow: scroll;*/
-    overflow: hidden;
-}
+
 
 .slider{
     display: flex;
@@ -61,3 +63,16 @@
 
 }
 
+#about_infinite-scroll:hover .slider {
+    animation-play-state: paused;
+}
+
+.infinite_divs{
+border:1px solid rgba(255, 255, 255, 0.82);
+    color: var(--green)
+}
+
+.infinite_divs:hover{
+    border:1px solid var(--green);
+    color: white;
+}
