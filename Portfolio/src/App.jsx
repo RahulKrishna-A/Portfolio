@@ -7,7 +7,7 @@ import Contact from "./Sections/Contact.jsx";
 import Credits from "./Sections/Credits.jsx";
 function App() {
     return (
-        <div >
+        <div  style={{overflowX:"hidden"}}>
             <Home/>
             <About/>
             <Work/>
