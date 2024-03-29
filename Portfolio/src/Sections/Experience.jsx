@@ -41,7 +41,7 @@ function Experience() {
 
                     </div>
                 </div>
-                <div style={{marginTop:"40px"}}>
+                <div style={{marginTop: "40px"}}>
                     <p className={"role_name"}> Frontend Developer Intern</p>
                     <a className={"Project_Name"}>EBO</a><a style={{
                     color: "white", marginLeft: "1rem", fontSize: "clamp(8px, 2vw, 16px)",
@@ -50,11 +50,13 @@ function Experience() {
                     <div style={{marginLeft: 6, marginTop: 16}}>
                         <ul>
                             <li className={"Experience_points"}>
-                                Developed fully responsive and pixel-perfect front-end web pages for the organisation’s website utilizing HTML5,
+                                Developed fully responsive and pixel-perfect front-end web pages for the organisation’s
+                                website utilizing HTML5,
                                 CSS3, and JavaScript
                             </li>
                             <li className={"Experience_points"}>
-                                Made features such as drop-down navigation menu, and interactive content cards enhancing user experience.
+                                Made features such as drop-down navigation menu, and interactive content cards enhancing
+                                user experience.
                             </li>
 
                         </ul>

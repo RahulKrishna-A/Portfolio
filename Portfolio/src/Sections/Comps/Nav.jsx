@@ -57,12 +57,15 @@ function Nav(props) {
                 <motion.li className={"nav-list_items"} variants={child}><a
                     className={"nav-list_items__p two"} href={"#About_container"}>About</a></motion.li>
                 <motion.li className={"nav-list_items"} variants={child}><a
-                    className={"nav-list_items__p three"} href={"#Work_container"}>Work</a></motion.li>
-                <motion.li className={"nav-list_items"}  variants={child}><a
-                    className={"nav-list_items__p four"} href={"#Contact_container"}>Contact</a></motion.li>
-                <motion.button variants={child} className={"Resume_button"} onClick={()=>{
-                    window.open("https://drive.google.com/file/d/1ZIcsL2POvqCFKIoZHrBffw8uTY8B94J0/view?usp=sharing", '_blank');
-                }} >Resume</motion.button>
+                    className={"nav-list_items__p three"} href={"#Experience_container"}>Experience</a></motion.li>
+                <motion.li className={"nav-list_items"} variants={child}><a
+                    className={"nav-list_items__p four"} href={"#Work_container"}>Work</a></motion.li>
+                <motion.li className={"nav-list_items"} variants={child}><a
+                    className={"nav-list_items__p five"} href={"#Contact_container"}>Contact</a></motion.li>
+                <motion.button variants={child} className={"Resume_button"} onClick={() => {
+                    window.open("https://drive.google.com/file/d/1CSmlNLYswERNeCwAHmrxJi58UpeDYdB4/view?usp=sharing", '_blank');
+                }}>Resume
+                </motion.button>
 
             </motion.ul>}
             {!props.hamburgerMenu && <div id={"nav_right_hamburger"} style={{position: "relative"}}>
@@ -81,14 +84,21 @@ function Nav(props) {
                     <button className="hamburger_value">
                         <a style={{color: "white"}} href={"#About_container"}>About</a>
                     </button>
+
+                    <button className="hamburger_value">
+                        <a style={{color: "white"}} href={"#Experience_container"}>Experience</a>
+                    </button>
+
                     <button className="hamburger_value">
                         <a style={{color: "white"}} href={"#Work_container"}>Work</a>
                     </button>
                     <button className="hamburger_value">
-                        <a style={{color: "white"}}  href={"#Contact_container"}>Contact</a>
+                        <a style={{color: "white"}} href={"#Contact_container"}>Contact</a>
                     </button>
                     <button className="hamburger_value">
-                        <a style={{color: "white"}} href={"https://drive.google.com/file/d/1ZIcsL2POvqCFKIoZHrBffw8uTY8B94J0/view?usp=sharing"} target={"_blank"}>Resume</a>
+                        <a style={{color: "white"}}
+                           href={"https://drive.google.com/file/d/1CSmlNLYswERNeCwAHmrxJi58UpeDYdB4/view?usp=sharing"}
+                           target={"_blank"}>Resume</a>
                     </button>
                 </div>}
 
