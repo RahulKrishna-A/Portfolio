@@ -1,0 +1,38 @@
+.role_name{
+    font-size: clamp(12px, 3vw, 20px);
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.Project_Name{
+    color: var(--lightest-slate);
+    font-size: clamp(12px, 5vw, 15px);
+    font-family: var(--font-sans);
+    font-weight: 600;
+
+}
+
+.Experience_points{
+    position: relative;
+    margin-top: 0.4rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    /*text-align: -webkit-match-parent;*/
+    font-size: 12px;
+    font-family: var(--font-mono);
+    line-height: 1.3rem;
+    color: white;
+}
+.Experience_points::before{
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--green);
+    font-size: 14px;
+    line-height: 12px;
+}
