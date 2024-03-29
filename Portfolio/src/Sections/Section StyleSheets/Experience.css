@@ -1,3 +1,11 @@
+#Experience_container{
+    height: auto;
+    width: 100vw;
+    width: 100dvw;
+    background-color: var(--navy);
+}
+
+
 .role_name{
     font-size: clamp(12px, 3vw, 20px);
     color: var(--green);
@@ -8,7 +16,7 @@
 
 .Project_Name{
     color: var(--lightest-slate);
-    font-size: clamp(12px, 5vw, 15px);
+    font-size: clamp(10px, 3vw, 15px);
     font-family: var(--font-sans);
     font-weight: 600;
 

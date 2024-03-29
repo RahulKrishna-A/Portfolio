@@ -16,7 +16,7 @@ function Experience() {
                 <div className={""}>
                     <p className={"role_name"}> SDE Intern</p>
                     <a className={"Project_Name"}>Klaimz(Stealth Startup)</a><a style={{
-                    color: "white", marginLeft: "1rem", fontSize: "clamp(12px, 5vw, 16px)",
+                    color: "white", marginLeft: "1rem", fontSize: "clamp(8px, 2vw, 16px)",
                     fontFamily: "var(--font-sans)"
                 }}>Feb 2024 - Present</a>
                     <div style={{marginLeft: 6, marginTop: 16}}>
@@ -44,7 +44,7 @@ function Experience() {
                 <div style={{marginTop:"40px"}}>
                     <p className={"role_name"}> Frontend Developer Intern</p>
                     <a className={"Project_Name"}>EBO</a><a style={{
-                    color: "white", marginLeft: "1rem", fontSize: "clamp(12px, 5vw, 16px)",
+                    color: "white", marginLeft: "1rem", fontSize: "clamp(8px, 2vw, 16px)",
                     fontFamily: "var(--font-sans)"
                 }}>March 2023 - April 2023</a>
                     <div style={{marginLeft: 6, marginTop: 16}}>
