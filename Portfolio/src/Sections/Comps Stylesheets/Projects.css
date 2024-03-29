@@ -60,11 +60,13 @@
 
 .project-links{
     margin-top: 1rem;
+    display: flex;
 }
 
 
 .Project_svgs{
     margin-right: 1rem;
+
 
 }
 .Project_svgs svg{
