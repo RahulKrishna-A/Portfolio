@@ -63,7 +63,7 @@ function Nav(props) {
                 <motion.li className={"nav-list_items"} variants={child}><a
                     className={"nav-list_items__p five"} href={"#Contact_container"}>Contact</a></motion.li>
                 <motion.button variants={child} className={"Resume_button"} onClick={() => {
-                    window.open("https://drive.google.com/file/d/1CSmlNLYswERNeCwAHmrxJi58UpeDYdB4/view?usp=sharing", '_blank');
+                    window.open("https://drive.google.com/file/d/1E-6aMTjop5v5xHwr33AXWGDTKDSyTuY3/view?usp=sharing", '_blank');
                 }}>Resume
                 </motion.button>
 
@@ -97,7 +97,7 @@ function Nav(props) {
                     </button>
                     <button className="hamburger_value">
                         <a style={{color: "white"}}
-                           href={"https://drive.google.com/file/d/1CSmlNLYswERNeCwAHmrxJi58UpeDYdB4/view?usp=sharing"}
+                           href={"https://drive.google.com/file/d/1E-6aMTjop5v5xHwr33AXWGDTKDSyTuY3/view?usp=sharing"}
                            target={"_blank"}>Resume</a>
                     </button>
                 </div>}

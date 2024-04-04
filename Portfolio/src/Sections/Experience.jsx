@@ -28,6 +28,8 @@ function Experience() {
                                 Accountable for over 40 % of the Frontend code base, Implemented functionalities - API
                                 integrations, session
                                 managements, dynamic data manipulation for graphs.
+                            </li><li className={"Experience_points"}>
+                            Integrated a custom AI-powered ChatBot for handling user queries related to the data.
                             </li>
                             <li className={"Experience_points"}> Utilized Agile methodologies (Trello, git) for
                                 collaboration, developed role-based features, protected routes and
